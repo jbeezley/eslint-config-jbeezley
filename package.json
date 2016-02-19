@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-jbeezley",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache --config index.js .",
+    "test": "npm run lint",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeezley/eslint-config-jbeezley.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslintconfig",
+    "eslint"
+  ],
+  "author": "Jonathan Beezley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeezley/eslint-config-jbeezley/issues"
+  },
+  "homepage": "https://github.com/jbeezley/eslint-config-jbeezley#readme",
+  "devDependencies": {
+    "eslint": "^2.1.0"
+  }
+}
